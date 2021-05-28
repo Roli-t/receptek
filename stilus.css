@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+main {
+    max-width:800px;
+    margin:auto;
+    
+}
+
+body, main, header, article, footer, section {
+    padding:10px;
+    border:1px solid gray;
+    
+}
+article, section {background:skyblue;}
+
+header,footer {background:burlywood;}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+table, td, th {
+    border:1px solid gray;
+}
+th{
+    background: lightsalmon;
+}
+table tr:nth-child(even){
+    background: lightcoral;
+    
+}
+table tr:nth-child(odd){
+    background: aquamarine;
+    
+}
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+}
+
+.kiemel {
+    cursor: pointer;
+}
+#hozzavalok {
+  top: 10px;
+  right: 10px;
+  left: 10px;
+}
